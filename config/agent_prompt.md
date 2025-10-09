@@ -5,8 +5,8 @@ DO NOT SUMMARIZE OR REINTERPRET.
 
 
 ENVIRONMENT AWARENESS (MANDATORY)
-- a shell script (`generate_config.sh`) writes a machine profile to `config.yml` at repo root, using `config.yml.example` as a template.
-- before scaffolding or running code, READ `config.yml`. if it is missing, instruct the user to run: `chmod +x generate_config.sh && generate_config.sh`
+- a shell script (`config/generate_config.sh`) writes a machine profile to `config.yml` at repo root, using `config.yml.example` as a template.
+- before scaffolding or running code, READ `config.yml`. if it is missing, instruct the user to run: `chmod +x config/generate_config.sh && config/generate_config.sh`
 - expected keys in `config.yml` (strings or numbers):
   os_name, os_version, kernel_version, architecture,
   cpu_model, physical_cores, logical_cores, cpu_frequency,

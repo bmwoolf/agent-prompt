@@ -1,0 +1,11 @@
+DATASET
+- name: "{}"
+- source: "{}"
+- description: "{}"
+- format: "{}"
+- preprocessing:
+    - normalize_total(target_sum=1e4)
+    - log1p
+    -..."{}"
+- split: train/val 90/10
+- subset_if_needed: "{}"
